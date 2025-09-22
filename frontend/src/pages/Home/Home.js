@@ -8,15 +8,8 @@ export default function Home() {
     return (
         <div className='home-container'>
             <div className='home-header'>
-                <h1 className='home-heading'>YogaIntelliJ</h1>
-                <Link to='/about'>
-                    <button 
-                        className="btn btn-secondary" 
-                        id="about-btn"
-                    >
-                        About
-                    </button>
-                </Link>
+                <h1 className='home-heading'>Yoga</h1>
+               
             </div>
 
             <h1 className="description">A Yoga AI Trainer</h1>
